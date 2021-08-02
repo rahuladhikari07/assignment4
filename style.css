@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    background-color:#ffb703;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.8rem;
+    padding: 20px 10px;
+}
+ul a{
+    font-size: 1.2rem;
+}
+ul a:hover{
+    background-color:#fb8500;
+    border-radius:10px;
+}
+.header{
+    font-size: 2.8rem;
+}
+
+
+li{
+    padding: 20px 10px;
+}
+.container{
+    font-family:Arial, Helvetica, sans-serif;
+    width:80vw;
+    height:85vh;
+   
+    margin:30px auto;
+   
+   
+    border-radius:10px ;
+   
+   
+   
+}
+.fig1 {
+    width:100%;
+    height:100%;
+    background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    animation: slider 20s infinite linear normal;
+}
+@keyframes slider{
+    0%{
+        background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    }
+    25%{
+        background-image: url('https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    }
+    50%{
+        background-image: url('https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    }
+    75%{
+        background-image: url('https://images.unsplash.com/photo-1543362906-acfc16c67564?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    }
+    100%{
+        background-image: url('https://images.unsplash.com/photo-1604152135912-04a022e23696?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODh8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    }
+}
+.fig1 img{
+    width:100%;
+    height:100%;
+}
+.head1  {
+   display:flex;
+   width:1000px;
+  
+    
+}
+.head1 h1{
+    font-size:2rem;
+    justify-content:left;
+    margin-right:700px;
+}
+
+div{
+    margin-left: 650px;
+    font-family: 'Palette Mosaic', cursive;
+}
+.container2{
+    font-family:Arial, Helvetica, sans-serif;
+    width:80vw;
+   
+   
+    margin:30px auto;
+   
+   
+    border-radius:10px ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+   
+}
+.fig2{
+    width:300px;
+    border:1px solid #ccc;
+    margin:20px;
+    box-shadow:0px 0px 3px rgb(104,104,104);
+    transition:100ms;
+    border-radius:10px;
+}
+.fig2 img{
+
+    width:100%;
+    height:200px;
+    border-radius:10px;
+
+}
+.fig2:hover{
+    transform:scale(1.2);
+    cursor:pointer;
+}
+.fig2 p,h2{
+    margin-left:10px;
+}
+.container3{
+    width:70vw;
+   
+   
+    margin:30px auto;
+   
+    border:2px solid black;
+    border-radius:10px ;
+    display:flex;
+    flex-wrap:wrap;
+}
+.fig3{
+    background-color: orangered;
+    width:35%;
+    border:2px solid black;
+}
+
+.fig4{
+  
+    width:55%;
+    
+}
+.fig4 input{
+    border:1px solid orange;
+    padding:10px;
+    margin: 20px 25px;
+    width: 41%;
+   
+    
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+.fig4 textarea{
+   
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 4px;
+  margin: 20px 25px;
+  font-size: 16px;
+  resize: none;
+
+}
+.fig4 button{
+    background-color: orangered;
+    border: none;
+    width:100%;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 25px;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+#icon{
+    font-size:200px;
+    color:white;
+    margin-left:20px;
+   
+    
+}
+.icon1{
+    margin:0px;
+    padding:0px;
+    color:white;
+    margin:40px 60px;
+   display:block;
+}
+.foot{
+    width:100%;
+    height:100px;
+    background-color:#463f3a;
+}
+div{
+    display:inline-block;
+    display:flex;
+    justify-content: left;
+    cursor:pointer;
+   
+    
+
+   
+}
+.ic1 {
+    padding:5px;
+    margin:10xp 400px;
+    margin-left:30px;
+    margin-top:15px;
+    background-color:#ffb703;
+    border-radius:50%;
+    border:2px solid white;
+}
+div i{
+   color:white;
+   font-size:20px;
+  
+}
+
+
+
+
